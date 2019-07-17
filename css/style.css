@@ -1,0 +1,235 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+    font-family: Tahoma;
+    font-size: 14px;
+    width: 1000px;
+}
+.menu-top{
+    height: 40px;
+    background-color: #08181d;
+
+}
+.banner{
+    /*width: 280px;*/
+    height: 300px;
+    width: 1000px;
+    /*background-color: rgba(255, 248, 218, 0.54) ủ; */
+    /*margin: auto;*/
+}
+.main .main-left{
+    width: 750px;
+    min-height: 400px;
+    background-color: #e5fff8;
+    float: left;
+}
+.main .main-right{
+    width: 250px;
+    min-height: 400px;
+    float: left;
+}
+.footer {
+    /*width: 100px;*/
+    height: 100px;
+
+    background-color: bisque;
+    clear: left;
+    line-height:100px ;
+    text-align: center;
+}
+.menu-top ul {
+    margin: 0px;
+    padding: 0px;
+
+}
+.menu-top ul li {
+    float: left;
+    list-style: none;
+    /*text-indent: 14px;*/
+
+}
+.menu-top ul li a{
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    color: rgba(255, 254, 246, 0.69);
+    padding: 0px 20px 0px 20px;
+    border-right: 1px solid white;
+    line-height: 40px;
+}
+.menu-top ul li a.active{
+    background-color: #150bff;
+}
+.banner img{
+    height: 300px;
+    width: 1000px;
+}
+.main .main-left ul{
+    margin: 0px;
+    padding: 0px;
+}
+.main .main-left ul li{
+    list-style: none;
+    border-bottom: 1px dotted rgba(13, 28, 29, 0.61);
+    /*clear: left;*/
+    /*float: left;*/
+    /*/margin-bottom: 5px;*/
+}
+.main .main-left ul li h2{
+    font-size: 17px;
+    /* margin-bottom: 0px; */
+    padding-top: -21px;
+}
+.main .main-left ul li img{
+    float: left;
+    margin-right: 21px;
+    /* margin-bottom: -5px; */
+    clear: left;
+    height: 130px;
+    margin-top: -4px;
+
+}
+.main .main-left ul li p{
+    margin-bottom: 50px;
+    /* padding-bottom: 30px; */
+    word-wrap: break-word;
+}
+#face{
+    width: 42px;
+    height: 39px;
+}
+/*#face1{*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*}*/
+.main .main-right ul{
+    margin: 0px;
+    padding: 0px;
+}
+.main .main-right ul li{
+    list-style: none;
+    /* padding-top: 18px; */
+    padding: 11px;
+    height: 21px;
+    line-height: 18px;
+    /* text-align: center; */
+    text-indent: 35px;
+    background-color: #cecac8;
+    border-bottom: 1px solid black;
+
+}
+.main .main-right ul a{
+    text-decoration: none;
+    color: #0a1a63;
+}
+.main .main-right .menu-right p{
+    background: #0A1A63;
+    /* text-align: center; */
+    color: white;
+    height: 44px;
+    line-height: 44px;
+    padding-top: 3px;
+    text-indent: 46px;
+    margin-top: -75px;
+    font-style: oblique;
+    font-size: 20px;
+}
+.main .main-right .menu-right img{
+    width: 42px;
+    height: 45px;
+    /* padding-right: 20px; */
+    margin-left: 0px;
+    margin-top: -15px;
+    /* padding-top: 0px; */
+    margin-bottom: 26px;
+}
+.main .menu-right{
+    height: 14px;
+}
+.main .main-right ul li:hover{
+    background-color: #27b0ff;
+}
+/*.main .main-right ul li .img1{*/
+/*    height: 43px;*/
+/*    width: 42px;*/
+/*    margin-top: -11px;*/
+/*    padding-left: -7px;*/
+/*    !* padding-right: 22px; *!*/
+/*    margin-left: -46px;*/
+/*    background-color: #cecac8;*/
+/*}*/
+.form{
+    min-height: 170px;
+    background: #8ecff5;
+    width: 225px;
+    margin-left: 0px;
+}
+.form input{
+    margin-bottom: 4px;
+    margin-top: 7px;
+}
+form .submit{
+    background-color: #8293cc;
+}
+.form .login{
+    font-size: 23px;
+    font-family: Broadway;
+}
+.main .main-right .img1{
+    width: 250px;
+    height: 277px;
+}
+.footer .footer-left{
+    width: 300px;
+    background-color:#27b0ff;
+    float: left;
+}
+.footer .footer-main{
+    width: 400px;
+    background-color: #27b0ff;
+    float: left;
+}
+.footer .footer-right{
+    width: 300px;
+    background-color: #27b0ff;
+    float: left;
+}
+.footer .footer-left ul li{
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.footer .footer-left ul{
+    margin-top:-16px;
+    padding: 0px;
+
+}
+.footer .footer-right ul li{
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.footer .footer-right ul{
+    margin-top:-16px;
+    padding: 0px;
+}.footer .footer-main ul li{
+     list-style: none;
+     height: 30px;
+     line-height: 30px;
+     text-align: left;
+ }
+.footer .footer-main ul{
+    margin-top:-16px;
+    padding: 0px;
+}
+.footer .demo{
+
+    padding-top:  10px;
+    background-color: #27b0ff;
+}
+.footer .demo1{
+    height: 20px;
+}
+
